@@ -1,3 +1,4 @@
+/*
 350. Intersection of Two Arrays II
 https://leetcode.com/problems/intersection-of-two-arrays-ii/
 Difficulty: Easy
@@ -12,11 +13,11 @@ Note:
     Each element in the result should appear as many times as it shows in both arrays.
     The result can be in any order.
 
-/**
  * @param {number[]} nums1
  * @param {number[]} nums2
  * @return {number[]}
  */
+
 var intersect = function(nums1, nums2) {
     var solutions =[];
     for (var i=0;i<nums1.length;i++){
